@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/currentWeatherFragment">
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.travelerweatherapp.Fragments.Register.RegisterFragment"
+        android:label="register_fragment"
+        tools:layout="@layout/register_fragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_currentWeatherFragment"
+            app:destination="@id/currentWeatherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/currentWeatherFragment"
+        android:name="com.example.travelerweatherapp.Fragments.WeatherCurrent.currentWeatherFragment"
+        android:label="current_weather_fragment"
+        tools:layout="@layout/current_weather_fragment" >
+        <action
+            android:id="@+id/action_currentWeatherFragment_to_detailCapitalWeatherFragment"
+            app:destination="@id/detailCapitalWeatherFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailCapitalWeatherFragment"
+        android:name="com.example.travelerweatherapp.Fragments.WeatherCapitals.Search.searchWeatherFragment"
+        android:label="detail_capital_weather_fragment"
+        tools:layout="@layout/search_weather_fragment" >
+        <action
+            android:id="@+id/action_detailCapitalWeatherFragment_to_mapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.travelerweatherapp.Fragments.Map.MapFragment"
+        android:label="MapFragment" />
+</navigation>
