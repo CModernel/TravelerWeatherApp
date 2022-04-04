@@ -46,7 +46,8 @@ This is my first big project I developed in Kotlin since I normally program usin
 * Custom Markers for Google maps
 
 ## How to use?
-* Modify the API_KEY and use your personal Google API Key for Google Places to work
+* Modify the API_KEY in gradle.properties and use your personal OpenWeatherMap API Key
+* In google_maps_api.xml file, replace API_KEY with your personal Google API Key used for Google Places.
 
 ## Preview
 <img src="https://user-images.githubusercontent.com/5034892/161454799-ad83f13c-04dc-4ae4-a269-939ede9657a0.jpeg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/5034892/161454823-e7599f6f-a082-4d02-baec-f3c231697f6c.jpeg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/5034892/161454828-575edbb4-38b3-417c-a5d8-ad084b20059e.jpeg" width="300" height="600">
