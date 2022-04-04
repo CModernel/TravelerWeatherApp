@@ -42,6 +42,7 @@ This is my first big project I developed in Kotlin since I normally program usin
 * MVVM Architecture
 * Room Database, Repositories and DAO
 * API Requests to OpenWeatherMap
+* Search for places using Google Places
 * Custom Markers for Google maps
 
 ## How to use?
