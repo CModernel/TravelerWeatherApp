@@ -1,11 +1,11 @@
 # TravelerWeatherApp
 TravelerWeatherApp V1 - Kotlin Project
 
-### What is this?
+## What is this?
 This was a project developed in Kotlin for a technical test I had in an interview for a position as an Android Developer. 
 This is my first big project I developed in Kotlin since I normally program using java.
 
-### Requirements:
+## What were the requirements?
 
 >The tourism ministry wants to keep travelers informed of the weather at the main
 >capitals of the world. For this they want to create an app where the user can visualize
@@ -36,3 +36,15 @@ This is my first big project I developed in Kotlin since I normally program usin
 >* Add animations to the map pins.
 >* Use Google Places to ensure the validity of the cities given by the user.
 >* Validate the registration data.
+
+## What languages, technologies and libraries were used for this app?
+* Kotlin
+* MVVM Architecture
+* Room Database, Repositories and DAO
+* API Requests to OpenWeatherMap
+* Custom Markers for Google maps
+
+## Preview
+<img src="https://user-images.githubusercontent.com/5034892/161454799-ad83f13c-04dc-4ae4-a269-939ede9657a0.jpeg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/5034892/161454823-e7599f6f-a082-4d02-baec-f3c231697f6c.jpeg" width="300" height="600"> <img src="https://user-images.githubusercontent.com/5034892/161454828-575edbb4-38b3-417c-a5d8-ad084b20059e.jpeg" width="300" height="600">
+
+
