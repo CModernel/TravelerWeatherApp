@@ -1,5 +1,5 @@
 # TravelerWeatherApp
-TravelerWeatherApp V1 - Kotlin Project
+TravelerWeatherApp V0.1.0 - Kotlin Project
 
 ## What is this?
 This was a project developed in Kotlin for a technical test I had in an interview for a position as an Android Developer. 
